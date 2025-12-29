@@ -1,0 +1,26 @@
+[Start]
+scrapCount = 40
+scavClass = "ivscav"
+consClass = "ivcons"
+CheckProvides = true
+
+[IdleDispatcher]
+ScavIdleSeconds = 10
+UnitIdleSeconds = 20
+BomberIdleSeconds = 60
+
+[Cheat]
+
+[Match]
+
+[Plan1]
+planType = "CollectPool"
+planPriority = 1000
+planCondition = "Lua"
+buildIfNoIdle = true
+
+[Plan2]
+planType = "CollectPool"
+planPriority = 990
+planCondition = "Lua"
+buildIfNoIdle = true
